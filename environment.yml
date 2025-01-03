@@ -1,0 +1,24 @@
+name: audio_transcription
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - pip:
+    - markitdown
+    - SpeechRecognition
+    - pynput
+    - markdownify
+    - beautifulsoup4
+    - requests
+    - mammoth
+    - python-pptx
+    - pandas
+    - openpyxl
+    - pdfminer.six
+    - puremagic
+    - youtube-transcript-api
+    - charset-normalizer
+    - openai
